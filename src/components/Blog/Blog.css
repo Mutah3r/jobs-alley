@@ -1,0 +1,20 @@
+.blog-wrapper {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blog-qstn {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 32px;
+    color: #1A1919;
+}
+
+.blog-qstn-ans {
+    /* font-weight: 600; */
+    font-size: 16px;
+    line-height: 32px;
+    color: #757575;
+}

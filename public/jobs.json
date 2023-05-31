@@ -1,0 +1,149 @@
+{
+    "jobs": [
+        {
+            "id": 1,
+            "contact": {
+                "phone": "555-1234",
+                "email": "jobs@company.com"
+            },
+            "title": "Software Engineer",
+            "company": "Acme Corp",
+            "logo": "https://i.ibb.co/4pm7Zwq/acme.png",
+            "location": "San Francisco, CA",
+            "remote": false,
+            "fulltime": true,
+            "salary": "$100,000 - $120,000",
+            "description": "Acme Corp is seeking a talented software engineer to join our team...",
+            "responsibilities": [
+                "Develop and maintain high-quality software",
+                "Collaborate with cross-functional teams to design, develop, and ship new features",
+                "Write clean, maintainable code",
+                "Troubleshoot and debug issues",
+                "Stay up-to-date with emerging trends and technologies in software engineering"
+            ],
+            "education": "Bachelor's degree in Computer Science or related field",
+            "experience": "3+ years of professional experience in software engineering"
+        },
+        {
+            "id": 2,
+            "contact": {
+                "phone": "555-5678",
+                "email": "jobs@startup.com"
+            },
+            "title": "Product Manager",
+            "company": "Startup Inc",
+            "logo": "https://i.ibb.co/pXt5c3j/startup.png",
+            "location": "New York, NY",
+            "remote": true,
+            "fulltime": true,
+            "salary": "$90,000 - $110,000",
+            "description": "Startup Inc is looking for an experienced product manager to join our growing team...",
+            "responsibilities": [
+                "Define and drive product strategy and roadmap",
+                "Conduct user research and gather feedback",
+                "Collaborate with design and engineering teams to create and launch new products and features",
+                "Analyze data and metrics to measure success and inform future product decisions",
+                "Stay up-to-date with market trends and competition"
+            ],
+            "education": "Bachelor's degree in Business, Computer Science, or related field",
+            "experience": "5+ years of professional experience in product management"
+        },
+        {
+            "id": 3,
+            "contact": {
+                "phone": "555-9012",
+                "email": "jobs@techco.com"
+            },
+            "title": "Data Analyst",
+            "company": "Tech Co",
+            "logo": "https://i.ibb.co/cbj79tc/techco.png",
+            "location": "Seattle, WA",
+            "remote": true,
+            "fulltime": true,
+            "salary": "$70,000 - $90,000",
+            "description": "Tech Co is seeking a talented data analyst to join our analytics team...",
+            "responsibilities": [
+                "Collect, analyze, and interpret large datasets",
+                "Create and maintain reports and dashboards",
+                "Collaborate with cross-functional teams to identify areas for improvement",
+                "Develop and implement data quality checks and audits",
+                "Stay up-to-date with industry trends and best practices"
+            ],
+            "education": "Bachelor's degree in Mathematics, Statistics, Computer Science, or related field",
+            "experience": "2+ years of professional experience in data analysis or related field"
+        },
+        {
+            "id": 4,
+            "contact": {
+                "phone": "555-3456",
+                "email": "jobs@agency.com"
+            },
+            "title": "Graphic Designer",
+            "company": "Creative Agency",
+            "logo": "https://i.ibb.co/RvS7vJC/creativeagency.png",
+            "location": "Los Angeles, CA",
+            "remote": false,
+            "fulltime": false,
+            "salary": "$60,000 - $80,000",
+            "description": "Creative Agency is seeking a creative and talented graphic designer to join our team...",
+            "responsibilities": [
+                "Design and create visual assets for a variety of mediums",
+                "Collaborate with clients and internal teams to develop visual concepts",
+                "Maintain and enhance brand identities for clients",
+                "Participate in brainstorming sessions and present ideas",
+                "Meet project deadlines and manage multiple projects simultaneously",
+                "Stay up-to-date with industry trends and design software"
+            ],
+            "education": "Bachelor's degree in Graphic Design or related field",
+            "experience": "3+ years of professional experience in graphic design"
+        },
+        {
+            "id": 5,
+            "contact": {
+                "phone": "555-6789",
+                "email": "jobs@healthcareco.com"
+            },
+            "title": "Registered Nurse",
+            "company": "Healthcare Co",
+            "logo": "https://i.ibb.co/bd2KNMX/healthcare.png",
+            "location": "Houston, TX",
+            "remote": false,
+            "fulltime": true,
+            "salary": "$65,000 - $85,000",
+            "description": "Healthcare Co is seeking a compassionate and skilled registered nurse to join our team...",
+            "responsibilities": [
+                "Provide patient care and support",
+                "Administer medications and treatments",
+                "Collaborate with healthcare professionals to develop and implement care plans",
+                "Educate patients and families on healthcare practices and disease prevention",
+                "Stay up-to-date with healthcare regulations and best practices"
+            ],
+            "education": "Associate's or Bachelor's degree in Nursing",
+            "experience": "2+ years of professional experience as a registered nurse"
+        },
+        {
+            "id": 6,
+            "contact": {
+                "phone": "555-4321",
+                "email": "jobs@lawfirm.com"
+            },
+            "title": "Associate Attorney",
+            "company": "Law Firm",
+            "logo": "https://i.ibb.co/PwJX8M0/associateattorny.png",
+            "location": "Chicago, IL",
+            "remote": false,
+            "fulltime": true,
+            "salary": "$80,000 - $100,000",
+            "description": "Law Firm is seeking an ambitious and detail-oriented associate attorney to join our team...",
+            "responsibilities": [
+                "Conduct legal research and analysis",
+                "Draft legal documents, contracts, and agreements",
+                "Represent clients in court and at depositions",
+                "Collaborate with senior attorneys and staff",
+                "Stay up-to-date with changes in law and regulations"
+            ],
+            "education": "Juris Doctorate degree from an accredited law school",
+            "experience": "1-3 years of professional experience in a law firm or related field"
+        }
+    ]
+}

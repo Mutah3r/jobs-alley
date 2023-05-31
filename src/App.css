@@ -1,0 +1,22 @@
+.header {
+    padding: 40px;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.header .pattern-1 {
+    width: 250px;
+    position: absolute;
+    top: -70px;
+    right: -70px;
+    z-index: -1;
+}
+
+.header .pattern-2 {
+    width: 250px;
+    position: absolute;
+    bottom: -70px;
+    left: -70px;
+    z-index: -1;
+}

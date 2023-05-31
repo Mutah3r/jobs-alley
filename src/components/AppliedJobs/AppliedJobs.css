@@ -1,0 +1,50 @@
+.applied-job-sor-btn-container {
+    margin-top: 130px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.applied-job-sor-btn-container h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+}
+
+.applied-job-sor-btn-container .opacity-low {
+    opacity: 0.4;
+}
+
+.applied-job-sor-btn-container .opacity-high {
+    opacity: 1 !important;
+}
+
+.sort-btn-1 {
+    margin-left: auto;
+}
+
+.applied-jobs-wrapper {
+    margin-top: 32px;
+    margin-bottom: 50px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.no-job-msg {
+    padding: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .applied-job-sor-btn-container {
+        flex-direction: column;
+    }
+    .applied-job-sor-btn-container button {
+        margin: unset;
+    }
+}

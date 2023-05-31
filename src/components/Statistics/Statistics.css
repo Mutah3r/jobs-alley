@@ -1,0 +1,24 @@
+.statistics-wrapper {
+    margin-top: 130px;
+    padding: 0 40px;
+    font-weight: 600;
+}
+
+.statistics-page-title {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    color: #1A1919;
+    text-align: center;
+}
+
+.chart-container {
+    margin: 40px 0;
+}
+
+@media only screen and (max-width: 450px) {
+    .statistics-page-title {
+        font-size: 35px;
+        font-weight: 800;
+    }
+}

@@ -1,0 +1,118 @@
+.job-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    padding: 40px;
+    /* text-align: left !important; */
+}
+
+.job-card-logo-container {
+    height: 100px;
+}
+
+.job-card-logo {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.job-card-title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #474747;
+    margin-top: 32px;
+}
+
+.job-card-company {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin-top: 8px;
+}
+
+.job-card-tags-container {
+    margin-top: 16px;
+}
+
+.btn-secondary {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border: 2px solid #7E90FE;
+    border-radius: 4px;
+    /* padding: 20px 28px; */
+    padding: 10px 20px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.job-card-details-container {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.job-card-details-container span {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.job-card-details-container span svg {
+    height: 24px;
+    width: 24px;
+}
+
+.job-card-btn {
+    align-self: flex-start;
+}
+
+a {
+    align-self: flex-start;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 510px) {
+    .job-card-wrapper {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .job-card-tags-container {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        align-items: center;
+        justify-content: center;
+    }
+    .job-card-tags-container button {
+        align-self: flex-start;
+        margin: 0 auto;
+    }
+    .job-card-details-container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .job-card-wrapper a {
+        display: block;
+        margin: 0 auto;
+    }
+    .job-card-details-container span svg {
+        display: none;
+    }
+}
